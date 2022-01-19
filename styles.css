@@ -54,7 +54,7 @@ a {
 }
 
 button {
-    background-color: #2a9d8f;
+    background-color: #e76f51;
     color: white;
     padding: 16px;
     font-size: 18px;
@@ -85,11 +85,33 @@ button {
 
 
 #quote {
-    background-color: #e5e7eb;
+    background-color: #2a9d8f;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.quote-content {
+    max-width: 800px;
+}
+
+.quote-main {
+    font-size: 36px;
+    color: white;
+    font-style: italic;
+}
+
+.quote-name {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    text-align: end;
+}
+
+
 .section {
-    height: 400px;
+    height: 600px;
     flex-shrink: 0;
 }
 
@@ -100,6 +122,7 @@ button {
     background-color: #264653;
     color: white;
     padding: 32px;
+    font-size: 18px;
 }
 
 .header ul {
@@ -109,4 +132,72 @@ button {
     padding: 0;
     gap: 16px;
     margin-left: auto;
+}
+
+.what-we-do-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-we-do-content p {
+    padding: 32px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.what-we-do-card-row {
+    display: flex;
+    gap: 40px;
+}
+
+.what-card {
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+}
+
+.what-card img {
+    max-width: 200px;
+    margin-bottom: 8px;
+}
+
+#call-to-action {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-wrapper {
+    background-color: #e76f51;
+    padding: 16px;
+    max-width: 1280px;
+    border-radius: 15px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.action-wrapper p {
+    color: white;
+    margin-left: 100px;
+}
+
+#action-button {
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+#action-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#action-subtitle {
+    font-size: 24px;
+    margin-top: 5px;
 }
